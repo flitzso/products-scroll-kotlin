@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/nike_sb_azul_branco"
+    />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenis Nike SB"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/productPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="R$ 79,99"
+       />
+
+    <Button
+        android:id="@+id/buyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adcionar Carrinho"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/productImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/nike_sb_preto_branco"
+        />
+
+    <TextView
+        android:id="@+id/productNameTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenis Nike SB"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/productPriceTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="R$ 99,99"
+        />
+
+    <Button
+        android:id="@+id/buyButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adcionar Carrinho"
+        android:layout_marginTop="16dp"
+        />
+
+            <ImageView
+                android:id="@+id/productImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/tenis_dc_lona"
+                />
+
+            <TextView
+                android:id="@+id/productNameTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenis DC Brown"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/productPriceTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="R$ 99,99"
+                />
+
+            <Button
+                android:id="@+id/buyButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adcionar Carrinho"
+                android:layout_marginTop="16dp"
+                />
+
+            <ImageView
+                android:id="@+id/productImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/tenis_qix_mix"
+                />
+
+            <TextView
+                android:id="@+id/productNameTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenis QIX SB"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/productPriceTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="R$ 99,99"
+                />
+
+            <Button
+                android:id="@+id/buyButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adcionar Carrinho"
+                android:layout_marginTop="16dp"
+                />
+
+            <ImageView
+                android:id="@+id/productImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/tenis_freeday_preto"
+                />
+
+            <TextView
+                android:id="@+id/productNameTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenis Freeday SB"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/productPriceTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="R$ 99,99"
+                />
+
+            <Button
+                android:id="@+id/buyButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adcionar Carrinho"
+                android:layout_marginTop="16dp"
+                />
+
+            <ImageView
+                android:id="@+id/productImageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/tenis_adidas_ultraboot"
+                />
+
+            <TextView
+                android:id="@+id/productNameTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenis Adidas UltraBoost"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/productPriceTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="R$ 99,99"
+                />
+
+            <Button
+                android:id="@+id/buyButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adcionar Carrinho"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
