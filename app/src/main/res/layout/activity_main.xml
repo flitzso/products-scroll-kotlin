@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -52,11 +51,22 @@
 
     <Button
         android:id="@+id/buyButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adcionar Carrinho"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/ic_left_buy"
         android:layout_marginTop="16dp"
+        android:text="Buy"
         />
+            <Button
+                android:id="@+id/cartButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
+                />
 
 
     <ImageView
@@ -90,11 +100,23 @@
 
     <Button
         android:id="@+id/buyButton1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adcionar Carrinho"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/ic_left_buy"
         android:layout_marginTop="16dp"
+        android:text="Buy"
         />
+
+            <Button
+                android:id="@+id/cartButton1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
+                />
 
             <ImageView
                 android:id="@+id/productImageView2"
@@ -127,10 +149,22 @@
 
             <Button
                 android:id="@+id/buyButton2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Adcionar Carrinho"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/ic_left_buy"
                 android:layout_marginTop="16dp"
+                android:text="Buy"
+                />
+
+            <Button
+                android:id="@+id/cartButton2"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
                 />
 
             <ImageView
@@ -164,10 +198,22 @@
 
             <Button
                 android:id="@+id/buyButton3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Adcionar Carrinho"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/ic_left_buy"
                 android:layout_marginTop="16dp"
+                android:text="Buy"
+                />
+
+            <Button
+                android:id="@+id/cartButton3"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
                 />
 
             <ImageView
@@ -201,10 +247,22 @@
 
             <Button
                 android:id="@+id/buyButton4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Adcionar Carrinho"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/ic_left_buy"
                 android:layout_marginTop="16dp"
+                android:text="Buy"
+                />
+
+            <Button
+                android:id="@+id/cartButton4"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
                 />
 
             <ImageView
@@ -238,10 +296,22 @@
 
             <Button
                 android:id="@+id/buyButton5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Adcionar Carrinho"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="75dp"
+                android:background="@drawable/ic_left_buy"
                 android:layout_marginTop="16dp"
+                android:text="Buy"
+                />
+
+            <Button
+                android:id="@+id/cartButton5"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="85dp"
+                android:background="@drawable/ic_right_cart"
+                android:layout_marginTop="-40dp"
+                android:text="Add Cart"
                 />
 
         </LinearLayout>
